@@ -1,0 +1,67 @@
+body {
+  background-color: #2069a8;
+}
+div {
+  font-family: Cambria;
+  color: #f5b247;
+  font-size: 32px;
+  padding: 5px;
+}
+nav {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  width: 2000px;
+  padding: 10px;
+  border: 5px solid #7f7f7f;
+}
+#meditation {
+  padding: 10px;
+  border: 5px solid #df9657;
+}
+#journal {
+  padding: 10px;
+  border: 5px solid #df9657;
+}
+#advice {
+  padding: 10px;
+  border: 5px solid #df9657;
+}
+#login {
+  padding: 10px;
+  border: 5px solid #df9657;
+}
+.element:hover {
+  text-decoration: underline;
+  color: #f5b247;
+  cursor: grab;
+}
+.element {
+  border-radius: 100px;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+a {
+  text-decoration: none;
+}
+
+#temp {
+  display: flex;
+  border: red solid 1px;
+}
+
+#slogan {
+  margin-top: 150px;
+  margin-left: 200px;
+  font-size: 100px;
+  border: black solid 1px;
+  width: 500px;
+}
+
+#stats {
+  margin-top: 150px;
+  margin-left: 600px;
+  border: black solid 1px;
+  width: 500px;
+  height: 500px;
+}
