@@ -1,0 +1,61 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.resource a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.resource a:hover {
+  text-decoration: underline;
+}
+
+.article {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.article h3 {
+  margin-bottom: 10px;
+}
+
+.article a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}

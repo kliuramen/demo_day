@@ -3,7 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Meditation</title>
+    <link rel="stylesheet" href="style_meditation.css" />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <img src="images/Smaller_Wellness_Wave_Logo.png" />
+      <a href="index.html"><div class="element" id="login">Main Page</div></a>
+      <a href="journal.html"><div class="element" id="journal">Journal</div></a>
+      <a href="advice.html"><div class="element" id="advice">Advice</div></a>
+      <a href="login.html"
+        ><div class="element" id="login">Login & Signup</div></a
+      >
+    </nav>
+
+    <div id="timer_container">
+      <div id="countdown">00:00:00</div>
+      <input id="inputTime" type="number" placeholder="Minutes" />
+      <div id="buttons">
+        <button id="startButton">Start</button>
+        <button id="stopButton">Stop</button>
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
+
+    <div id="gif_div">
+      <img
+        id="gif"
+        src="images/meditation_gif.gif"
+        alt="gif of girl meditating"
+      />
+    </div>
+
+    <div id="songs">
+      <audio controls>
+        <source src="songs/song_1.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <audio controls>
+        <source src="songs/song_2.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <audio controls>
+        <source src="songs/song_3.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <audio controls>
+        <source src="songs/song_4.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <audio controls>
+        <source src="songs/song_5.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <script src="countdown.js"></script>
+  </body>
 </html>

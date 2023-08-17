@@ -9,8 +9,11 @@ zoomButtons.forEach(button => {
         }
     });
 });
-  const button = document.querySelector('.nav-button');
-        button.addEventListener('click', function() {
-      const targetUrl = button.getAttribute('data-target');
-      window.location.href = targetUrl;
-  });
+const buttons = document.querySelectorAll('.nav-button');
+
+buttons.forEach(button => {
+    button.addEventListener('click', function() {
+        const targetUrl = button.getAttribute('data-target');
+        window.location.href = targetUrl;
+    });
+});

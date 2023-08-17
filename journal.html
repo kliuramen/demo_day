@@ -3,7 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Journal</title>
+    <link rel="stylesheet" href="journal.css">
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <img src="images/Smaller_Wellness_Wave_Logo.png" />
+      <a href="index.html"><div class="element" id="login">Main Page</div></a>
+      <a href="journal.html"><div class="element" id="journal">Journal</div></a>
+      <a href="advice.html"><div class="element" id="advice">Advice</div></a>
+      <a href="login.html"
+        ><div class="element" id="login">Login & Signup</div></a
+      >
+    </nav>
+    <h1 id="Title">Journal Entries</h1>
+
+    <input id="journalBtn" type="button" value="Add a Journal">
+
+    <div id = "hidden">
+    <label for="w3review"><input id = "input" type="text" placeholder="Title"></input><label>
+
+    <textarea id="w3review" name="titling">
+
+    </textarea>
+
+    <input id="saving" type="button" onclick="return display()" value="Save your Journal">
+  </div>
+    <script src="journal.js"></script>
+  </body>
 </html>

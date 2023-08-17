@@ -4,18 +4,17 @@ h1,
 h2,
 h3,
 p {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
 }
 
 body {
   font-family: Arial, sans-serif;
   line-height: 2;
+  background-color: #e4dcd1;
 }
 
 header {
-  background-color: #f2f2f2;
-  padding: 10px;
+  padding: 0px;
   text-align: center;
 }
 
@@ -23,19 +22,24 @@ nav ul li {
   display: inline;
   margin-right: 20px;
 }
+#resource {
+  padding: 5px;
+}
 .resources_class {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 5px solid #f2ebdf;
 }
 .resources_class a {
   text-decoration: none;
   color: #007bff;
 }
+#articles {
+  padding: 10px;
+  border: 5px solid #f2ebdf;
+}
 .article {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  border: 5px solid #f2ebdf;
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -51,4 +55,41 @@ nav ul li {
 
 .article a:hover {
   text-decoration: underline;
+}
+.resource {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.resource-title {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.resource-logo {
+  width: 300px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  margin-left: 10px;
+}
+
+.resource a {
+  color: #7f7f7f;
+  text-decoration: none;
+}
+.NIH-logo {
+  width: 400px;
+  height: 200px;
+  margin-left: 10px;
+}
+@media (max-width: 414px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-button {
+    margin: 5px 0;
+  }
 }

@@ -3,7 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>testing</title>
+    <link rel="stylesheet" href="style_signlog.css" />
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="firebase.js" defer></script>
+    <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <!-- <img src="images/Wellness-Wave-logo.png" /> -->
+      <a href="meditation.html"
+        ><div class="element" id="meditation">Meditation</div></a
+      >
+      <a href="journal.html"><div class="element" id="journal">Journal</div></a>
+      <a href="advice.html"><div class="element" id="advice">Advice</div></a>
+      <a href="login.html"
+        ><div class="element" id="login">Login & Signup</div></a
+      >
+    </nav>
+
+    <div class="loginbox">
+      <h1>Login</h1>
+      <form>
+        <label>Username</label>
+        <input id="user" class="input" type="text" placeholder="" />
+        <label>Password</label>
+        <input id="pass" class="input" type="text" placeholder="" />
+      <button id="submitBtn" onclick= 'window.location.href="index.html";'>Submit</button></a>
+      </form>
+
+      <a href="#"><p id="pass">Forgot your password?</p></a>
+      <a href="signup.html"><p>Don't have an account? Create one</p></a>
+    </div>
+  </body>
+  <!-- <body onload="checkCookie()"></body> -->
 </html>
